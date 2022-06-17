@@ -31,6 +31,18 @@ UserDetailsService 에서 비교하여 사용자 정보가 들어있는 객체 �
 
 SecurityContext
 
+#maven module - 각각 의 모듈
+#maven project - 프로젝트 껍데기
+
+오늘 해볼거
+1. JWT
+2. Exception
+3. Security
+
+과제
+Rbac구조로 사용자 Role 관련 설정
+
+
 
 
 
