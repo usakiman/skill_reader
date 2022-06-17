@@ -42,9 +42,34 @@ SecurityContext
 과제
 Rbac구조로 사용자 Role 관련 설정
 
+https://jwt.io/introduction
 
 
+256 = 32byte
 
+accessToken - short term
+refreshToken - long term
 
+filter중에 체크 하는 위치를 설계시 고민해야함
 
+인가 (인증 타입)
+authrization (bearer type)
+
+![image](https://user-images.githubusercontent.com/40287921/174229770-8fdb63a9-7c4e-40b2-bea7-72e2bf09f2eb.png)
+
+checkedException
+- 체크가능한 Exception
+unchekcedException
+- 확인불가능한 Exception, runtimeException
+
+Exception 처리 
+회피 (Exception ex)
+완화 (throw new) <- spring 에서 추천
+책임 (try catch)
+
+@RequireArgsConstructor 으로 생성자 추천
+autoWired는 사용하지 말기를
+
+@spring boot
+library reload (hotload 기능)
 
