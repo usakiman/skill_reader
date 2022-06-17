@@ -20,3 +20,13 @@ gson, jackson이 두개가 있을경우 jackson 우선
 - 테스트 규칙 : Junit
 - 연계표준 (시스템<->시스템) : restTemplate
 
+spring boot 2.7 버전부터는 사용법이 바뀜
+adapter 은 spring boot 에서 사용되는 항목
+
+![image](https://user-images.githubusercontent.com/40287921/174201773-998b22b1-126b-4580-95b4-31ca80d627d9.png)
+
+Authentication Filter이 하는건 UsernamePasswordAuthenticationToken 으로 토큰을 생성해서 Manager로 넘겨줌
+Manager -> Provider -> 
+UserDetailsService 에서 비교하여 사용자 정보가 들어있는 객체 리턴
+
+SecurityContext
